@@ -1,0 +1,894 @@
+
+
+.desktophd {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1672px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.desktophd .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 600px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .rectangle {
+  background-color    : rgba(25, 27, 43, 0.4);
+  top                 : -7px;
+  height              : 607px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .agamechangingmobi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 486px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 375px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 21.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 33.0px;
+}
+.desktophd .inputtxtfieldcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 963px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy4 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy4 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1029px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1029px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy5 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy5 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1095px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy2 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy2 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1095px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy6 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy6 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1161px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy3 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy3 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1161px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy7 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy7 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .inputtxtfieldcopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1227px;
+  height              : 51px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy8 .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .inputtxtfieldcopy8 .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.desktophd .interactionbtnbasered {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1313px;
+  height              : 52px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .interactionbtnbasered .rectangle1 {
+  background-color    : rgba(227, 70, 94, 1.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .interactionbtnbasered .btntext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.desktophd .interactionbtnbaseredcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1313px;
+  height              : 52px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .interactionbtnbaseredcopy .rectangle1 {
+  background-color    : rgba(25, 27, 43, 1.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 277px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .interactionbtnbaseredcopy .btntext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 109px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.desktophd .iphonemockup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 568px;
+  width               : 469px;
+  position            : absolute;
+  margin              : 0;
+  left                : 783px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .wanttogetintouch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1487px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 533px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(25, 27, 43, 1.0);
+  text-align          : center;
+}
+.desktophd .hellofyttapp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1557px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 671px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(227, 70, 94, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.desktophd .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 734px;
+  height              : 189px;
+  width               : 469px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .freeapptofindbo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(25, 27, 43, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.desktophd .group .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 91px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 159px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .groupcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 734px;
+  height              : 162px;
+  width               : 469px;
+  position            : absolute;
+  margin              : 0;
+  left                : 795px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .groupcopy .getnewcustomersm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(25, 27, 43, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.desktophd .groupcopy .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .groupcopy .ovalcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 79px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .groupcopy .ovalcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .trainees {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 662px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(227, 70, 94, 1.0);
+  text-align          : left;
+}
+.desktophd .trainers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 662px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 825px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(25, 27, 43, 1.0);
+  text-align          : left;
+}
+.desktophd .group3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 224px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 394px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .group3copy .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 224px;
+  width               : 281px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .findyourtrainerto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : auto;
+  width               : 471px;
+  position            : absolute;
+  margin              : 0;
+  left                : 299px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 54.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 52.0px;
+}
+.desktophd .stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 963px;
+  height              : auto;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .stackedgroup .inputtxtfield {
+  background-color    : rgba(255,255,255,0.0);
+  flex                : 100.00;
+  top                 : 0%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .stackedgroup .inputtxtfield .rectangle2copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 22px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(188, 188, 190, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.desktophd .stackedgroup .inputtxtfield .entertexthere {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 282px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(75, 76, 78, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

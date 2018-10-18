@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440px, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktopHd.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktophd"/>
+        <form id="form2" action="mailto:hello@fytt.app" class="desktophd" method="post" name="form2">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="./img/desktop-hd-bitmap.png" class="bitmap" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="rectangle">
+                </div>
+                <div class="agamechangingmobi">
+                    A Game-changing mobile<br />application for personal training!
+                </div>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy4-k8oK {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 963px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 825px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy4-k8oK .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy4-k8oK .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="Aco8qQU">
+                    <div class="inputtxtfieldcopy4-k8oK component state1" data-initial-state="state1" data-name="inputTxtfieldCopy4k8oK">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4xGRw">
+                        </div>
+                        
+                            
+                            <input type="Name" placeholder="Name" class="entertexthere">
+                            
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy-Pyp8 {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1029px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 282px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy-Pyp8 .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy-Pyp8 .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="KgkDvLt">
+                    <div class="inputtxtfieldcopy-Pyp8 component state1" data-initial-state="state1" data-name="inputTxtfieldCopyPyp8">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4Uidw">
+                        </div>
+                        
+                            <input type="Email" placeholder="Email" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy5-1snz {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1029px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 825px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy5-1snz .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy5-1snz .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="2ucVBR0">
+                    <div class="inputtxtfieldcopy5-1snz component state1" data-initial-state="state1" data-name="inputTxtfieldCopy51snz">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy46zzg">
+                        </div>
+                        
+                            <input type="Email" placeholder="Email" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy2-jhBB {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1095px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 282px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy2-jhBB .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy2-jhBB .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="4kurU8Q">
+                    <div class="inputtxtfieldcopy2-jhBB component state1" data-initial-state="state1" data-name="inputTxtfieldCopy2jhBB">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4vS88">
+                        </div>
+                        
+                            <input type="City" placeholder="City" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy6-L3TS {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1095px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 825px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy6-L3TS .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy6-L3TS .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="p3qdRxt">
+                    <div class="inputtxtfieldcopy6-L3TS component state1" data-initial-state="state1" data-name="inputTxtfieldCopy6L3TS">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4Aehk">
+                        </div>
+                        
+                            <input type="City" placeholder="City" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy3-gW4Z {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1161px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 282px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy3-gW4Z .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy3-gW4Z .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="2nN2SD7">
+                    <div class="inputtxtfieldcopy3-gW4Z component state1" data-initial-state="state1" data-name="inputTxtfieldCopy3gW4Z">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4aVui">
+                        </div>
+                        
+                            <input type="Whattraining" placeholder="What training are you interested in?" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy7-vRod {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1161px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 825px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy7-vRod .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy7-vRod .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="6JCC1Ps">
+                    <div class="inputtxtfieldcopy7-vRod component state1" data-initial-state="state1" data-name="inputTxtfieldCopy7vRod">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4UKe4">
+                        </div>
+                        
+                            <input type="typetrain" placeholder="What type of training do you offer" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <style>
+                    * {
+                        box-sizing          : border-box;
+                    }
+                    .desktophd .inputtxtfieldcopy8-s5NB {
+                        pointer-events      : none;
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 1227px;
+                        height              : 51px;
+                        width               : 364px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 825px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy8-s5NB .rectangle2copy4 {
+                        background-color    : rgba(255, 255, 255, 1.0);
+                        top                 : 0px;
+                        height              : 50px;
+                        width               : 363px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 0px;
+                        border-radius       : 22px;
+                        border-style        : solid;
+                        border-width        : 0px;
+                        border-color        : rgba(188, 188, 190, 1.0);
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                    }
+                    .desktophd .inputtxtfieldcopy8-s5NB .entertexthere {
+                        background-color    : rgba(255,255,255,0.0);
+                        top                 : 12px;
+                        height              : auto;
+                        width               : 282px;
+                        position            : absolute;
+                        margin              : 0;
+                        left                : 17px;
+                        -ms-transform       : rotate(0deg); /* IE 9 */
+                        -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                        transform           : rotate(0deg);
+                        font-family         : "San Francisco", Helvetica, Arial, serif;
+                        font-size           : 16.0px;
+                        color               : rgba(75, 76, 78, 1.0);
+                        text-align          : left;
+                        line-height         : 19.0px;
+                    }
+                </style>
+                <div id="LFomvI8">
+                    <div class="inputtxtfieldcopy8-s5NB component state1" data-initial-state="state1" data-name="inputTxtfieldCopy8s5NB">
+                        <div class="rectangle2copy4 " data-name="rectangle2Copy4BTwu">
+                        </div>
+                        
+                                <input type="years" placeholder="How many years of experience" class="entertexthere">
+                        
+                    </div>
+                </div>
+                <script>
+                    if (typeof String.prototype.endsWith !== 'function') {
+                        String.prototype.endsWith = function(suffix) {
+                            return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                        };
+                    }
+                    if (!String.prototype.startsWith) {
+                        String.prototype.startsWith = function(searchString, position) {
+                            position = position || 0;
+                            return this.indexOf(searchString, position) === position;
+                        };
+                    }
+                    if (!Array.prototype.forEach) {
+                        Array.prototype.forEach = function(callback) {
+                            var T, k;
+                            if (this == null) {
+                                throw new TypeError('this is null or not defined');
+                            }
+                            var O = Object(this);
+                            var len = O.length >>> 0;
+                            if (typeof callback !== 'function') {
+                                throw new TypeError(callback + ' is not a function');
+                            }
+                            if (arguments.length > 1) {
+                                T = arguments[1];
+                            }
+                            k = 0;
+                            while (k < len) {
+                                var kValue;
+                                if (k in O) {
+                                    kValue = O[k];
+                                    callback.call(T, kValue, k, O);
+                                }
+                                k++;
+                            }
+                        };
+                    }
+                    function toArray(obj) {
+                        var array = [];
+                        for (var i = obj.length >>> 0; i--; ) {
+                            array[i] = obj[i];
+                        }
+                        return array;
+                    }
+                    function addClass(object, className) {
+                        object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                    }
+                    function removeAllClassesButFirst(component, skipClass) {
+                        var classList = component.classList;
+                        var componentClass = classList.item(0);
+                        var toRemove = [];
+                        toArray(classList).forEach(function(className) {
+                            if (className != skipClass && className != componentClass && className != 'component') {
+                                toRemove.push(className);
+                            }
+                        });
+                        toRemove.forEach(function(className) {
+                            classList.remove(className);
+                        });
+                    }
+                    function applyState(component, stateClass) {
+                        var componentClass = component.classList.item(0);
+                        component.className = componentClass;
+                        component.classList.add(stateClass);
+                    }
+                    function isCurrentState(component, state) {
+                        var classList = component.classList;
+                        var rv = false;
+                        toArray(classList).forEach(function(className) {
+                            if (className.endsWith(state)) {
+                                rv = true;
+                            }
+                        });
+                        return rv;
+                    }
+                    function whichTransitionEvent() {
+                        var t, el = document.createElement("fakeelement");
+                        var transitions = {
+                            "transition": "transitionend",
+                            "OTransition": "oTransitionEnd",
+                            "MozTransition": "transitionend",
+                            "WebkitTransition": "webkitTransitionEnd"
+                        };
+                        for (t in transitions) {
+                            if (el.style[t] !== undefined) {
+                                return transitions[t];
+                            }
+                        }
+                    }
+                    var transitionEvent = whichTransitionEvent();
+                    var component = document.querySelector('.component');
+                    var event = new Event('click');
+                    component.dispatchEvent(event);
+                </script>
+                <a href="#" onclick="document.getElementsByName('form2')[0].submit(); if (window.submitted) window.submitted();">
+                    <div class="interactionbtnbasered">
+                        <div class="rectangle1">
+                        </div>
+                        <div class="btntext">
+                            Sign Up
+                        </div>
+                    </div>
+                </a>
+                <a href="#" onclick="document.getElementsByName('form2')[0].submit(); if (window.submitted) window.submitted();">
+                    <div class="interactionbtnbaseredcopy">
+                        <div class="rectangle1">
+                        </div>
+                        <div class="btntext">
+                            Sign Up
+                        </div>
+                    </div>
+                </a>
+                <img anima-src="./img/desktop-hd-iphonemockup.png" class="iphonemockup" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="wanttogetintouch">
+                    Want to get in touch with us?
+                </div>
+                <div class="hellofyttapp">
+                    hello@fytt.app
+                </div>
+                <div class="group">
+                    <div class="freeapptofindbo">
+                        Free app to find, book and pay for certified personal training. <br /><br />Follow your training progress. <br /><br />Get motivated and get access to multiple training specialists.
+                    </div>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="oval" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="ovalcopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="ovalcopy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="groupcopy">
+                    <div class="getnewcustomersm">
+                        Get new customers.<br /><br />Manage your business in one app<br />(reduce admin time).<br /><br />Market yourself through your customers.
+                    </div>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="oval" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="ovalcopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="./img/desktop-hd-oval-copy-2 1@2x.png" class="ovalcopy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="trainees">
+                    TRAINEES
+                </div>
+                <div class="trainers">
+                    TRAINERS
+                </div>
+                <div class="group3copy">
+                    <img anima-src="./img/desktop-hd-fill-1@2x.png" class="fill1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="findyourtrainerto">
+                    Find Your<br />Trainer Today!
+                </div>
+                <div class="stackedgroup">
+                    <style>
+                        * {
+                            box-sizing          : border-box;
+                        }
+                        .desktophd .stackedgroup .inputtxtfield-ATx1 {
+                            pointer-events      : none;
+                            background-color    : rgba(255,255,255,0.0);
+                            flex                : 100.00;
+                            top                 : 0%;
+                            width               : 100%;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 0%;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .desktophd .stackedgroup .inputtxtfield-ATx1 .rectangle2copy4 {
+                            background-color    : rgba(255, 255, 255, 1.0);
+                            top                 : 0px;
+                            height              : 50px;
+                            width               : 363px;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 0px;
+                            border-radius       : 22px;
+                            border-style        : solid;
+                            border-width        : 0px;
+                            border-color        : rgba(188, 188, 190, 1.0);
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                        }
+                        .desktophd .stackedgroup .inputtxtfield-ATx1 .entertexthere {
+                            background-color    : rgba(255,255,255,0.0);
+                            top                 : 12px;
+                            height              : auto;
+                            width               : 282px;
+                            position            : absolute;
+                            margin              : 0;
+                            left                : 17px;
+                            -ms-transform       : rotate(0deg); /* IE 9 */
+                            -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+                            transform           : rotate(0deg);
+                            font-family         : "San Francisco", Helvetica, Arial, serif;
+                            font-size           : 16.0px;
+                            color               : rgba(75, 76, 78, 1.0);
+                            text-align          : left;
+                            line-height         : 19.0px;
+                        }
+                    </style>
+                    <div id="4HVvlyR">
+                        <div class="inputtxtfield-ATx1 component state1" data-initial-state="state1" data-name="inputtxtfieldATx1">
+                            <div class="rectangle2copy4 " data-name="rectangle2Copy4Hy47">
+                            </div>
+                            
+                                    <input type="Name" placeholder="Name" class="entertexthere">
+                                    
+                        </div>
+                    </div>
+                    <script>
+                        if (typeof String.prototype.endsWith !== 'function') {
+                            String.prototype.endsWith = function(suffix) {
+                                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+                            };
+                        }
+                        if (!String.prototype.startsWith) {
+                            String.prototype.startsWith = function(searchString, position) {
+                                position = position || 0;
+                                return this.indexOf(searchString, position) === position;
+                            };
+                        }
+                        if (!Array.prototype.forEach) {
+                            Array.prototype.forEach = function(callback) {
+                                var T, k;
+                                if (this == null) {
+                                    throw new TypeError('this is null or not defined');
+                                }
+                                var O = Object(this);
+                                var len = O.length >>> 0;
+                                if (typeof callback !== 'function') {
+                                    throw new TypeError(callback + ' is not a function');
+                                }
+                                if (arguments.length > 1) {
+                                    T = arguments[1];
+                                }
+                                k = 0;
+                                while (k < len) {
+                                    var kValue;
+                                    if (k in O) {
+                                        kValue = O[k];
+                                        callback.call(T, kValue, k, O);
+                                    }
+                                    k++;
+                                }
+                            };
+                        }
+                        function toArray(obj) {
+                            var array = [];
+                            for (var i = obj.length >>> 0; i--; ) {
+                                array[i] = obj[i];
+                            }
+                            return array;
+                        }
+                        function addClass(object, className) {
+                            object.classList ? object.classList.add(className) : object.className += ' ' + className;
+                        }
+                        function removeAllClassesButFirst(component, skipClass) {
+                            var classList = component.classList;
+                            var componentClass = classList.item(0);
+                            var toRemove = [];
+                            toArray(classList).forEach(function(className) {
+                                if (className != skipClass && className != componentClass && className != 'component') {
+                                    toRemove.push(className);
+                                }
+                            });
+                            toRemove.forEach(function(className) {
+                                classList.remove(className);
+                            });
+                        }
+                        function applyState(component, stateClass) {
+                            var componentClass = component.classList.item(0);
+                            component.className = componentClass;
+                            component.classList.add(stateClass);
+                        }
+                        function isCurrentState(component, state) {
+                            var classList = component.classList;
+                            var rv = false;
+                            toArray(classList).forEach(function(className) {
+                                if (className.endsWith(state)) {
+                                    rv = true;
+                                }
+                            });
+                            return rv;
+                        }
+                        function whichTransitionEvent() {
+                            var t, el = document.createElement("fakeelement");
+                            var transitions = {
+                                "transition": "transitionend",
+                                "OTransition": "oTransitionEnd",
+                                "MozTransition": "transitionend",
+                                "WebkitTransition": "webkitTransitionEnd"
+                            };
+                            for (t in transitions) {
+                                if (el.style[t] !== undefined) {
+                                    return transitions[t];
+                                }
+                            }
+                        }
+                        var transitionEvent = whichTransitionEvent();
+                        var component = document.querySelector('.component');
+                        var event = new Event('click');
+                        component.dispatchEvent(event);
+                    </script>
+                </div>
+            </div>
+        </form>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
